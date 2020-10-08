@@ -21,14 +21,6 @@ const Content = styled.div`
   background: #062054;
 `;
 
-const WrapAbout = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  width: 100%;
-`;
-
 const BoxDescription = styled.div`
   width: 60%;
   padding-left: 2.5rem;
@@ -45,7 +37,7 @@ const TitleFrom = styled.h2`
 `;
 
 const DescriptionFrom = styled.p`
-  width: 45%;
+  width: 26.875rem;
   padding-top: 1.5rem;
 
   font-family: Roboto;
@@ -53,6 +45,7 @@ const DescriptionFrom = styled.p`
   font-weight: normal;
   font-size: .75rem;
   line-height: .875rem;
+  text-align: left;
   color: #FFF;
 `;
 
@@ -62,8 +55,7 @@ function From() {
       <Content>
         <BoxDescription>
           <TitleFrom>Where does it come from?</TitleFrom>
-          <DescriptionFrom>Contrary to popular belief, Lorem Ipsum is not simply random text. 
-It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</DescriptionFrom>
+          <DescriptionFrom>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin  iterature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical iterature, discovered the undoubtable source.</DescriptionFrom>
         </BoxDescription>
       </Content>
 		</Container>
