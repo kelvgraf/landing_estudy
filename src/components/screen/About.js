@@ -38,10 +38,10 @@ const BoxImg = styled.figure`
   background: #C4C4C4;
 
   p {
-    font-family: Roboto;
+    font-family: 'Roboto';;
     font-weight: bold;
     font-size: .875rem;
-    line-height: 1rem;
+    line-height: 1.25rem;
     display: flex;
     align-items: center;
   }
@@ -52,7 +52,7 @@ const BoxDescription = styled.div`
 `;
 
 const TitleAbout = styled.h2`
-  font-family: Roboto;
+  font-family: "Roboto";
   font-weight: bold;
   font-size: .875rem;
   line-height: 1rem;
@@ -62,15 +62,15 @@ const TitleAbout = styled.h2`
 
 const DescriptionAbout = styled.p`
   width: 28.8125rem;
-  padding-top: 1.5rem;
+  padding-top: 2.5rem;
 
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   font-size: .75rem;
-  line-height: .875rem;
+  line-height: 1.25rem;
   text-align: left;
-  color: #000000;
+  color: #000;
 `;
 
 function About() {

@@ -41,7 +41,7 @@ const BoxImg = styled.figure`
     display: flex;
     align-items: center;
 
-    font-family: Roboto;
+    font-family: 'Roboto';;
     font-weight: bold;
     font-size: .875rem;
     line-height: 1rem;
@@ -54,23 +54,23 @@ const BoxDescription = styled.div`
 `;
 
 const TitleFooter = styled.h2`
-  font-family: Roboto;
+  font-family: 'Roboto';;
   font-weight: bold;
   font-size: .875rem;
-  line-height: 1rem;
+  line-height: 1.25rem;
   display: flex;
   align-items: center;
 `;
 
 const DescriptionFooter = styled.p`
   width: 26.375rem;
-  padding-top: 1.5rem;
+  padding-top: 2.5rem;
 
-  font-family: Roboto;
+  font-family: 'Roboto';;
   font-style: normal;
   font-weight: normal;
   font-size: .75rem;
-  line-height: .875rem;
+  line-height: 1.25rem;
   text-align: left;
   color: #000000;
 `;
