@@ -17,7 +17,7 @@ const BtnSing = styled.button`
 	box-shadow: ${props => props.boxShadow};
 
 	color: ${props => props.color};
-	font-family: Roboto;
+	font-family: 'Roboto';;
 	font-style: normal;
 	font-weight: bold;
 	font-size: .75rem;

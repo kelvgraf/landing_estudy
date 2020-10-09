@@ -34,7 +34,7 @@ const BoxTitle = styled.span`
 `;
 
 const TitleHome = styled.h2`
-	font-family: Roboto;
+	font-family: 'Roboto';;
 	font-style: normal;
 	font-weight: 900;
 	font-size: 48px;

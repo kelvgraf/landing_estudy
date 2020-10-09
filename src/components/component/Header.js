@@ -29,7 +29,7 @@ const Logo = styled.h1`
 
 	background: #C4C4C4;
 
-	font-family: Roboto;
+	font-family: 'Roboto';;
 	font-style: normal;
 	font-weight: bold;
 	font-size: .75rem;
@@ -53,10 +53,10 @@ const MenuList = styled.ul`
 const ListItem = styled.li`
 	margin: 0 2rem;
 
-	font-family: Roboto;
+	font-family: 'Roboto';;
 	font-weight: 900;
 	font-size: .75rem;
-	line-height: .875rem;
+	line-height: 1.25rem;
 	color: #98A4B1;
 
 	cursor: pointer;
